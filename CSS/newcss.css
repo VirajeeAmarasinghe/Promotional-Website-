@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul {
+	list-style-type: none;
+}
+
+.circle1 {
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-block;
+	border: 10px solid #693 ;
+	
+}
+.circle1 img {
+    border-radius: 50%;
+	height: 200px;
+    width: 200px;
+    display: block;
+	border: 2px solid #CCC ;
+}
+
+.cover
+{
+	height: 250px;
+	width: 250px;
+	margin-left:20px;
+	margin-top:20px;
+	display: inline-block;
+	align: center;	 
+	}
+	
+	
+.buy
+{
+	 transform: rotate(-30deg);
+	 display: inline-block;
+	}
+	
+	.view
+{
+	 transform: rotate(-60deg);
+	 display: inline-block;
+	 z-index:1;
+	}
+	
+	.background-circle {
+    background-image: url( 'http://lorempixel.com/200/200/cats/' );
+    height: 200px;
+    width: 200px;
+}
+.txtSmall
+{
+	width:50px;}
+	.txteSmall
+{
+	width:25px;}
+.btneSmall
+{
+	}
+
+.navigation{
+	border-bottom:gray solid thin;
+	width:100%;
+}
+	
+.navigation ul li{
+	display:inline-block;
+	margin-left:1.5em;	
+}
+
+.navigation ul li a{
+	text-decoration:none;
+	color:#4F4D4D;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+	font-size:1.2em;
+	font-weight:bold;
+}
+
+.dropdown{
+        width:auto;
+        background: #f2f2f2;
+        display: none;
+        position: absolute;        
+        
+		padding-left:4px;
+}
+
+
+
+ul li:hover ul.dropdown{
+        display: block; /* Display the dropdown */
+}
+
+ul li ul.dropdown li{
+        display: block;
+}
+
+#search_box{	
+	background-color:#000000;
+	background:url(../Images/search-icon.png) right no-repeat;
+    height:auto;
+    font:Ms Sans Serif;
+    padding-right:35px;
+    color:gray;
+    width:200px; 
+	margin-bottom:0; 
+	border:1px solid gray;  
+}
+
+.myCartTitle{
+	width:100%;
+}
+
+.title{
+	width:75%;
+	border-bottom:1px solid gray;
+	margin-left:10%;
+	padding-top:5em;
+	color:#3F3D3D;
+}
+
+.btn_empty{
+	margin-left:78%;
+	margin-top:1%;
+	padding:1em;
+	color:#3F3D3D;
+	display:inline-block;		
+}
+
+.empty_button .message{
+	display:inline-block;
+	color:#3F3D3D;
+	margin-left:10%;
+	margin-right:-15em;
+}
+
+.empty_button .invisible{
+	display:inline-block;
+	color:#3F3D3D;
+	margin-left:10%;
+	margin-right:-15em;
+	visibility:hidden;
+}
+
+.cart_table{
+	width:100%;
+	height:auto;
+}
+
+.cart_table table{
+	border:1px solid #dddddd;
+    width:75%;
+	margin-left:10%;
+	margin-top:1.5em;
+	max-width:100%;
+	background-color:transparent;
+	border-collapse:collapse;
+	border-spacing:0;
+	display:table;
+	text-align:left;	
+}
+
+.cart_table table th,.cart_table table td{
+	padding:1em;
+	border:1px solid #dddddd;
+	color:black;
+}
+
+.cart_table table td{
+	color:#323030;
+
+}
+
+.btneSmall{
+	padding-left:2em;
+	padding-right:2em;
+	padding-top:1em;
+	padding-bottom:1em;
+	background-color: #dcdcdc;
+    border: 1px solid #666;
+	border-radius:5px 5px 5px 5px;
+}
+
+#update{
+	padding:0.5em;
+	border: 1px solid #666;
+    border-radius:0px 5px 5px 0px;
+	margin-left:-1em;
+}
+
+.txteSmall{
+	height:1.8em;
+	width:6em;
+}
+
+#remove{
+	background-color:#B50A0D;
+	color:white;
+}
+
+#checkout{
+	background-color:#0F4302;
+	color:white;
+}
+
+
+

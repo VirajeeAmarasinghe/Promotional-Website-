@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.tweet{
+	position:relative;
+	height:auto;
+	width:auto;
+}
+
+.tweet img{
+	display:block;
+}
+.text_on_tweet_image{
+	position: absolute;
+	top: 121px;
+	left: 50px;
+	width: 343px;
+	color: white;
+}
+
+.text_on_tweet_image h2{
+	font-size:30px;	
+}
+
+.text_on_tweet_image p{
+	font-size:15px;		
+}
+
+.text_on_tweet_image a{
+	border:white solid medium;
+	text-decoration:none;
+	padding:10px;
+	color:white;
+	margin-left:50px;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+	-moz-opacity: 1;
+	opacity: 1;
+}
+
+.text_on_tweet_image:hover a{
+	color:white;
+	border-radius:10px 10px 10px 10px;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+}
+

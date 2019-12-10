@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+#welcome{
+	margin-left:20em;
+}
+
+#main_wrapper{
+	margin-left:3em;
+	border:rgba(155,155,155,1.00) solid thin;
+	width:78em;
+	height:auto;
+	border-radius:0.2em;
+}
+
+#second_bar{
+	margin-top:2em;
+	margin-left:1em;
+}
+
+.col-sm-6{
+	margin-top:2em;
+}
+
+#image_upload_preview{
+	margin-bottom:2em;
+}
+
+#image_upload{
+	margin-left:45em;
+	margin-top:1em;
+}
+
+#update_profile{
+	background-color:rgba(70,68,68,1.00);
+	margin-left:1em;
+	margin-top:1.5em;
+	margin-bottom:1.5em;
+	color:white;
+}
+
+#user_gender{
+	margin-left:1em;	
+}
+
+#short_bio{
+	margin-left:1em;
+	width:60%;	
+	margin-bottom:1em;
+}
+
+#gender{
+	margin-left:1em;	
+	margin-bottom:1em;
+}
+
+.container-fluid ul li{
+	display:inline-block;
+}
+.container-fluid ul li a{
+	text-decoration:none;
+	color:black;
+	margin-right:1em;
+	font-weight:bold;
+}
+
+table{
+	margin-left:3em;
+	margin-top:4em;	
+}
+
+table tr th{
+	width:10em;
+	text-align:left;
+	padding-left:1em;
+}
+
+table tr td{
+	width:10em;
+	padding-left:1em;
+}
+
+#second_bar{
+	margin-left:11em;
+}
+
+#second_bar ul li{
+	display:inline-block;
+}
+
+#second_bar ul li a{
+	text-decoration:none;
+	color:black;
+	margin-right:1em;
+	font-weight:bold;
+	border-left:black solid thin;
+	padding-left:1em;
+}
+
+#message{
+	margin-left:2em;
+	border:black solid thin;
+	width:10em;
+	padding:1em;
+	margin-top:2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

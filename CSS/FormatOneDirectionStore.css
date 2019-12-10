@@ -1,0 +1,254 @@
+@charset "utf-8";
+
+body{
+	margin:0;
+	padding:0;
+	background-color:black;
+}
+
+/*---------------------------------------------------Top Stripe---------------------------------------------------*/
+
+#top_stripe{
+	background:#1b1b1b;
+	width:100%;
+	height:40px; 
+	border-style:solid;
+	border-color:#1b1b1b;
+}
+
+#homePage{
+	display:inline-block;
+	margin-left:1em;
+	margin-top:-0.5em;	    
+}
+
+#search_box{
+	margin-left:55%;	
+	background-color:#000000;
+	background:url(../Images/search-icon.png) right no-repeat;
+    height:auto;
+    font:Ms Sans Serif;
+    padding-right:35px;
+    color:gray;
+    width:200px; 	
+	border:1px solid gray;  
+}
+
+#search_box_form_div{
+	display:inline-block;
+	width:250px; 
+	margin-left:50%;
+}
+
+#registration_nav{
+	display:inline-block;
+	float:right;
+}
+
+#registration_nav ul{
+	list-style-type:none;
+	float:right;
+	padding-right:20px;
+}
+
+#registration_nav li{
+	display:inline-block;
+	margin-left:10px;  
+	margin-right:10px; 
+	margin-bottom:10px;
+}
+
+#registration_nav a{
+  text-decoration:none;
+  font-size:large; 
+  font-weight:bold;
+  color:#F8F0F1;
+}
+
+#registration_nav li:hover a{
+	color:#E81B1F;
+}
+
+/*-------------------------------------------------Second Stripe--------------------------------------------------*/
+
+#second_stripe{
+	background:#222222;
+	width:100%;
+	height:77px; 
+	border-style:solid;
+	border-color:#222222;
+	text-decoration:none;
+}
+
+#second_stripe:hover #singer_fname{
+	color:#FBF7F7;
+}
+
+#second_stripe:hover #singer_lname{
+	color:#820507;
+}
+
+#singer_fname{
+	padding-left:12%;
+	color:#820507;
+	display:inline-block;
+	margin-right:0;	
+	text-decoration:none;
+}
+
+#singer_lname{
+	color:#FBF7F7;
+	display:inline-block;
+	text-decoration:none;	
+}
+
+/*---------------------------------------------main navigaton bar--------------------------------------------------------*/
+.main{
+	background-color:#1b1b1b;	
+	width:100%;
+	height:50px; 
+	border-style:solid;
+	border-color:#1b1b1b;
+	font-size:10px;
+}
+
+#Nav ul{
+	list-style-type:none;
+	float:left;
+	padding-right:20px; 
+}
+
+#Nav li{
+	display:inline-block;
+	margin:8px; 
+}
+
+#Nav a{
+  text-decoration:none;
+  font-size:large; 
+  font-weight:bold;
+  color:#F8F0F1;
+}
+
+#Nav li:hover a
+{
+	color:#E81B1F;
+}
+
+/*-----------------------------------------------main sub navigation bar-------------------------------------------------*/
+
+.main_subnavi{
+	background-color:black;	
+	width:100%;
+	height:60px;	
+}
+
+#Navig_sub ul{
+	list-style-type:none;
+	float:right;
+	margin-right:0.1px;	
+	margin-left:390px;	
+	clear:both;
+}
+
+#Navig_sub li{
+	display:inline-block;
+	margin-left:1em;
+	margin-right:1em;
+	margin-top:0.2em; 
+}
+
+#Navig_sub a{
+  text-decoration:none;
+  font-size:large; 
+  font-weight:bold;
+  color:#F8F0F1;    
+}
+
+#Navig_sub li:hover a
+{
+	color:#E81B1F;
+}
+
+#Navig_sub .first_a{
+	color:#820507;
+}
+
+
+/*-----------------------------------------------top banner--------------------------------------------*/
+
+#top_banner img{
+    display:block;  /*To remove whitespace around the image*/
+}
+
+/*------------------------------------------------product section-------------------------------------*/
+.product{
+	clear:both;	
+    height: 250px;
+	width: 250px;
+	margin-left:130px;
+	margin-top:80px;
+	display: inline-block;
+	align: center;
+	color:white;	
+}
+
+.text{
+	line-height:1.8em;
+	margin-top:1em;	
+}
+
+.view{
+	display:inline-block;	
+	padding-left:0.9em;
+	padding-right:0.9em;
+	margin-right:-0.8em;
+	margin-left:-0.5em;
+}
+
+.buy{
+	display:inline-block;
+	padding-left:1.4em;
+	padding-right:1.4em;
+}
+
+.buttons{
+	margin-top:0.5em;
+}
+
+.message_box{
+	color:white;
+	margin:1em;
+	height:auto;	
+}
+
+/*----------------------------------------privacy policy bar------------------------------------------------------------*/
+
+.privacy_policy_bar_include li{
+	display:inline-block;
+}
+
+.privacy_policy_bar_include li a{
+	text-decoration:none;
+	color:white;
+	padding:0.5em;
+	border-right:white thin solid;
+}
+
+.terms{
+	border-left:white thin solid;
+}
+
+.privacy_policy_bar_include ul{
+	margin-top:4em;
+	margin-left:32%;
+}
+
+.privacy_policy_bar_include p{
+	color:white;
+	margin-left:42%;
+	margin-bottom:1em;
+}
+
+
+

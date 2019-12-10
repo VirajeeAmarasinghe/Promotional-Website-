@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+#welcome{
+	margin-left:20em;
+}
+#main_wrapper{
+	margin-left:3em;
+	border:rgba(155,155,155,1.00) solid thin;
+	width:78em;
+	height:auto;
+	border-radius:0.2em;
+}
+
+#second_bar{
+	margin-top:2em;
+	margin-left:1em;
+}
+
+#second_bar{
+	margin-left:20em;
+}
+
+#second_bar ul li{
+	display:inline-block;
+}
+
+#second_bar ul li a{
+	text-decoration:none;
+	color:black;
+	margin-right:1em;
+	font-weight:bold;
+	border-left:black solid thin;
+	padding-left:1em;
+}
+
+.container-fluid ul li{
+	display:inline-block;
+}
+.container-fluid ul li a{
+	text-decoration:none;
+	color:black;
+	margin-right:1em;
+	font-weight:bold;
+}
+
+#form_section{
+	margin-left:25em;
+	margin-top:4em;
+	margin-bottom:1em;
+	width:30em;
+	border:gray solid thin;
+	border-radius:0.2em;
+	padding:2em;
+}
+
+#form_section label{
+	float:left;
+	margin-right:2em;
+}
+
+#form_section .input{
+	width:30em;	
+}
+
+#banner_buttons,#album_cover_buttons{
+	margin-left:-2.5em;
+}
+
+#banner_buttons,#album_cover_buttons{
+	list-style-type:none;
+}
+
+#buttons{
+	margin-top:2em;
+}
+
+.this_form{
+	color:#560607;
+}
+
+#table_box{
+	width:75em;
+	border:gray solid thin;
+	margin-left:1.2em;
+}
+
+#table_box table{
+	width:50em;	
+	margin-left:1em;
+	margin-top:1em;
+	margin-bottom:1em;
+	table-layout:fixed;
+	border:gary solid thin;
+}
+ 
+#table_box table tr th{
+	width:15em;
+	text-align:left;
+	border:gary solid thin;
+}
+
+table tr td{
+	width:8em;
+	text-align:left;
+	padding-right:8em;
+	border:gary solid thin;
+}
+
+tbody{
+	width:70em;
+	display:block;
+	overflow-y:hidden;
+}
+
+.hidden{
+	visibility:hidden;
+}
+
+
